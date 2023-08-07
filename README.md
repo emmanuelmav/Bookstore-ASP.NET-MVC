@@ -24,9 +24,16 @@ Users should be able to:
 
 ### Screenshot
 
+  #### Home Page
 ![](./home.png)
+
+  #### Book Page
 ![](./books.png)
+
+  #### Edit Page
 ![](./editbooks.png)
+
+  #### Admin Page
 ![](./crud.png)
 
 
