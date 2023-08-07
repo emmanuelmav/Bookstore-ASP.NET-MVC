@@ -24,7 +24,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./preview.jpg)
+![](./home.png)
+![](./books.png)
+![](./editbooks.png)
+![](./crud.png)
 
 
 ## My process
