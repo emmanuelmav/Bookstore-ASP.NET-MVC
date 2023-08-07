@@ -1,0 +1,21 @@
+﻿@model BookstoreProject.Models.Book
+<h1>Order Confirmation</h1>
+
+<p>Thank you for your order</p>
+
+
+
+
+<p>Your order id is @Model.Id</p>
+
+
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://blog.springshare.com/wp-content/uploads/2010/02/gc-md.gif" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title"> @Model.Title :  @Model.Author </h5>
+        <p>Price: $ @Model.Price 99</p>
+    </div>
+</div>
+
+<br />
+<a href="/store">View other books</a>

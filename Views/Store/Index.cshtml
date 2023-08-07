@@ -1,0 +1,37 @@
+﻿@model IEnumerable<BookstoreProject.Models.Book>
+
+@{
+    ViewData["Title"] = "Store";
+}
+
+
+<div class="cover d-flex justify-content-center align-items-center" style="background-image: url('https://images.dailyhive.com/20190925093636/montreal-bookstore.jpg')">
+    <div class="">
+        <h1 class="">Welcome to the Online Book Store</h1>
+    </div>
+</div>
+
+<br />
+<br />
+
+<h2>Avalaible Books</h2>
+
+<br />
+<br />
+
+<div class="container d-flex flex-wrap">
+
+@foreach (var item in Model) {
+    <div class="col">
+    <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://blog.springshare.com/wp-content/uploads/2010/02/gc-md.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title"> @item.Title :  @item.Author </h5>
+            <p>Price: $ @item.Price 99</p>
+            <p class="card-text"> @item.Synopsis</p>
+                    <a class="btn btn-primary" asp-action="Purchase" asp-route-id="@item.Id">Purchase</a>
+        </div>
+    </div>
+    </div>
+}
+</div>
