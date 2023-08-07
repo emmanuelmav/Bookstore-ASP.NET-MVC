@@ -4,7 +4,6 @@
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -27,10 +26,6 @@ Users should be able to:
 
 ![](./preview.jpg)
 
-
-### Links
-
-- Live Site URL: [Invoice App](https://invoiceapp-thgy.onrender.com/)
 
 ## My process
 
